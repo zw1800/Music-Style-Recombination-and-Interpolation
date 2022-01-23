@@ -1,6 +1,8 @@
 # Music-Style-Recombination-and-Interpolation
 Final Project for Introduction to Computer Music at NYU Shanghai
 
+link for demo:
+
 # Description
 Inspired by the findings of Mukherjee, Asnani, Eugene and Kannan that interpolation in the latent space can be preserved, I design an algorithm to implement music style recombination and interpolation with manipulation of the latent variables and attempt to close the loop of music. I first extract pitches and chords from two groups of wav files: group for pitches and group for rhythms. With extracted information, I reconstruct the audio as simple midi files for which the pitches and rhythms are preserved. I then use EC2VAE to obtain the latent variables for both groups. I use a user-defined interpolation method to obtain representative latent variables for the two groups and recombine pitch and rhythm to generate a new piece. In addition, I use midi- level composition technique and wave level synthesis to process the raw file, increasing the musicality and variation of the piece.
 

@@ -23,6 +23,7 @@ Feed them into EC2VAE and generate a new piece in the midi format.
 
 # Composition and Synthesis
 MIDI level: Canon, Play chord in a 16th note level, Pitch Interpolation
+
 WAV level: Decomposition of chords into 16th note, Sound generation (cos wave)
 
 # Last but not least...
